@@ -1,0 +1,15 @@
+
+Softwares necessários:
+ Apache, mysql, php, phpmyadmin/mysql workbench
+ou servidor AMP padrão
+
+Passos:
+ 1- Transfira todos os arquivos para a pasta raiz do servidor.
+
+ 2- Execute o script SQL database.sql(localizado na pasta) no MySQL.
+
+ 3- Abra o arquivo que está em application/config/database.php e apenas caso necessário, altere as variáveis hostname, username, password e database. Essas são as configurações do banco de dados.
+
+ 4- Abra o arquivo que está em application/config/config.php (na mesma pasta da instrução anterior) e caso necessário altere o valor da linha 26. Esse valor deve ser igual à URL base do servidor
+
+ 5- Com o navegador acesse http://localhost/crud/users para ver a tela principal
